@@ -1,0 +1,26 @@
+# Git Ignore for Unity
+
+# This is a default Unity .gitignore file.
+
+[Libraries](Library/)
+[TEMP](Temp/)
+[Obj](obj/)
+[Build](Build/)
+[Builds](Builds/)
+# Read more here: https://git-scm.com/docs/gitignore
+*.userprefs
+*.sln
+*.csproj
+*.pidb
+*.suo
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.mdb
+[Visual Studio files](*.resx)
+[Visual Studio solution folder](*.sln)
+
+# Disk space saving
+[DONT SEND THE VERSIONING](ProjectSettings/)
+[Settings](ProjectSettings/)
